@@ -31,14 +31,21 @@
   
 
 
-for x in range (15):
-  print ("*")
-  for y in range (x+1):
-    print ("*",end="")
+#for x in range (15):
+ # print ("*")
+  #for y in range (x+1):
+   # print ("*",end="")
 
   
-  
+donnée = {
+  "computer",
+  "ordinateur":(1),
+  "mouse" : "souris",
+  "keyboard" : "clavier"
+}
 
+clé = input()
+valeur = input()
 
 
 
